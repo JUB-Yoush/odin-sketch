@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script> 
+</head>
+<body>
+    <h2>Mario Paint</h2>
+
+    <div id = "canvas" class="pixel">
+        
+    </div>
+</body>
+
+<script>
+  let canvas =  document.getElementById("canvas");
+  let canvas_size = 960
+  let pixel_size = 12
+
+  let colour_array = ["red","blue","green"] 
+  let current_colour = 1
+
+  canvas.style.width = pixel_size * canvas_size +"px";
+  canvas.style.heigh = pixel_size * canvas_size +"px";
+
+  for (let i = 0; i < canvas_size * canvas_size; i++){
+    let newPixel = document.createElement("div")
+    newPixel.classList.add('pixel');
+    newPixel.style.width = pixel_size +"px";
+    newPixel.style.height = pixel_size +"px";
+    newPixel.addEventListener("mouseenter", function (e){
+        colourPixel(e)
+    })
+    canvas.appendChild(newPixel)
+  }
+  function colourPixel(e){
+      console.log(e)
+      e.originalTarget.style.background = "blue";
+  }
+  
+
+
+
+</script>
+
+</html>

@@ -1,0 +1,10 @@
+#canvas{
+    display: flex;
+    flex-wrap: wrap;
+   
+   
+}
+
+.pixel{
+    background-color: red;
+}

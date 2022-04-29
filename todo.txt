@@ -1,0 +1,5 @@
+1. create a webpage of 16x16 grid of square divs
+    - make a container that is a flexbox 
+    - make the flexbox filled with 16 x 16 divs.
+    - make the flexbox only hold 16 on one line before wrapping.
+
