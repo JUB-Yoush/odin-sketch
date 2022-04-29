@@ -19,8 +19,8 @@
 <script>
   let canvas =  document.getElementById("canvas");
   let max_size = 500
-  let canvas_size = 32
-  let pixel_size = max_size /canvas_size
+  let canvas_size = 13
+  let pixel_size = Math.round(max_size /canvas_size)
 
   let colour_array = ["red","blue","green"] 
   let current_colour = 1
