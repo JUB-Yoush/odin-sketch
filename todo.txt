@@ -3,6 +3,8 @@
     - make the flexbox filled with 16 x 16 divs.
     - make the flexbox only hold 16 on one line before wrapping.
 
+click mode vs hover mode?
+eraser tool?
 add button to change colour
 add button to change opacity?
 add button to change resolution
