@@ -69,16 +69,16 @@
      canvas.removeChild(canvas.firstChild);
     }
    
-    if (resInput.value > 2 && resInput.value < 128){
+    if (resInput.value >= 2 && resInput.value <= 128){
       canvas_size = resInput.value;
     }else{
       alert("Resolution must be an interger between 2 and 128")
     }
 
-    if (sizeInput.value > 64 && sizeInput.value < 800){
+    if (sizeInput.value >= 64 && sizeInput.value <= 800){
       max_size = sizeInput.value;
     }else{
-      alert("Resolution must be an interger between 64 and 128")
+      alert("Resolution must be an interger from 64 and 800")
     }
     pixel_size = Math.round(max_size /canvas_size)
     console.log(canvas_size)
