@@ -21,3 +21,6 @@
     flex-direction: column;
     justify-content: center;
 }
+p,h1{
+    font-family: 'Courier New', Courier, monospace;
+}
