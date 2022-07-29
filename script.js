@@ -8,7 +8,8 @@
   let canvas_size = 10
   let pixel_size = Math.round(max_size /canvas_size)
 
-  let colour_array = ["red","blue","green"] 
+  let colour_name_array = ["black","navy","maroon","green","blue","brown","dgrey","lgray","white","red","orange","yellow","green","blue","grey","pink","beige"] 
+  let colour_hex_array = ["#000000","#1d2b53","#7e2553","#008751","#ab5236","5f574f","c2c3c7","fff1e8","ff004d","ffa300","ffec27","00e436","29adff","83769c","ff77a8","ffccaa"] 
   let current_colour = 1
 
   
