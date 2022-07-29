@@ -4,8 +4,8 @@
   let resInput = document.getElementById("canvas-resolution-input")
   let btnUpdate = document.getElementById("btnUpdate")
   
-  let max_size = 128
-  let canvas_size = 10
+  let max_size = 256
+  let canvas_size = 16
   let pixel_size = Math.round(max_size /canvas_size)
 
   let colour_name_array = ["black","navy","maroon","green","blue","brown","dgrey","lgray","white","red","orange","yellow","green","blue","grey","pink","beige"] 

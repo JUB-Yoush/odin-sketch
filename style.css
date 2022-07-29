@@ -4,9 +4,11 @@
    
    
 }
-
+body{
+    background-color: antiquewhite;
+}
 .pixel{
-    background-color: red;
+    background-color: rgb(255, 255, 255);
 }
 
 .main-section{
@@ -21,6 +23,17 @@
     flex-direction: column;
     justify-content: center;
 }
-p,h1{
-    font-family: 'Courier New', Courier, monospace;
+*{
+    font-family: monospace;
+}
+
+#palette-settings{
+    display: flex;
+    justify-content: space-between;
+}
+
+#colour-preview{
+    width: 64px;
+    height: 64px;
+    background-color: black;
 }
