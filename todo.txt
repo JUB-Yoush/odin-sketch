@@ -1,7 +1,8 @@
 click mode vs hover mode?
 preview colour before placing
 eraser tool, just have a white colour to select
-div grid of coulours to select
 add button to change opacity?
-add button to change resolution
-add button to change canvas size
+
+make colour preview update in real time
+add inputed colours as divs in a flexbox
+make the ability to delete colorus from palette

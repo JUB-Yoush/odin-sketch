@@ -1,3 +1,7 @@
+:root {
+    --brush-colour: #000000;
+  }
+
 #canvas{
     display: flex;
     flex-wrap: wrap;
@@ -36,4 +40,9 @@ body{
     width: 64px;
     height: 64px;
     background-color: black;
+}
+
+#colour-inputs{
+    display: flex;
+    flex-direction: column;
 }

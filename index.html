@@ -24,10 +24,12 @@
       <div id="palette-settings">
         
         <div id="colour-preview"></div>
-        <div>
-          <input type="text" name="hex-picker" id="hex-picker" value = "000000">
+        <div id = "colour-inputs">
+          <input type="text" name="r-input" id="r-input" value = "000" oninput="updatePreview()">
+          <input type="text" name="g-input" id="g-input" value = "000"  oninput="updatePreview()">
+          <input type="text" name="b-input" id="b-input" value = "000"  oninput="updatePreview()">
           <br>
-          <button id="btnAddColour">ADD TO PALETTE</button>
+          <button id="btnAddColour">ADD COLOUR</button>
         </div>
     
       </div>
