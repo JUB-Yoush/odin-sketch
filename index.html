@@ -8,19 +8,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Mario Paint</h1>
+    <h1 class="title"> paint</h1>
+    <h3 class="title"> minimalist pixel art editor</h3>
   <div class = "main-section">
     <div id = "canvas" class="pixel">
         
     </div>
     <div class = "settings">
-      <p>CANVAS SIZE:</p>
+      <p>canvas size:</p>
       <input type = "text" id = "canvas-size-input" value = "256">
-      <p>CANVAS RESOLUTION:</p>
+      <p>canvas resolution:</p>
       <input type = "text" id = "canvas-resolution-input" value = "16">
       <br>
-      <button id = "btnUpdate">CLEAR AND UPDATE</button>
-      <p>PALETTE:</p>
+      <button id = "btnUpdate">clear and update</button>
+      <p>colour:</p>
       <div id="palette-settings">
         
         <div id="colour-preview"></div>
@@ -29,7 +30,7 @@
           <input type="text" name="g-input" id="g-input" value = "000"  oninput="updatePreview()">
           <input type="text" name="b-input" id="b-input" value = "000"  oninput="updatePreview()">
           <br>
-          <button id="btnAddColour">ADD COLOUR</button>
+          <button id="btnAddColour">change colour</button>
         </div>
     
       </div>
